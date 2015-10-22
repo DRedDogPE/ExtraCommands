@@ -1,0 +1,22 @@
+name: ExtraCommands
+version: 1.0.0
+api: [1.12.0]
+author: DRedDog
+main: ExtraCommands\Main
+
+
+commands:
+  tps:
+    description: shows the tps
+    permission: tps
+  clearchat:
+    description: Clears Chat
+    permission: chatclear
+
+permissions:
+ tps:
+  description: "Shows the TPS"
+  default: true
+ chatclear:
+  description: "Clear chat"
+  default: op
